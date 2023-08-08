@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>チンせイイ個人サイト</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+
+		<link rel="stylesheet" href="./css/style1.css	">
+		<link rel="stylesheet" type="text/css" href="icon-font.css"> <!-- 引入图标字体库的CSS文件 -->
+
+		<style>
+			/* 使用CSS样式来设置首行缩进 */
+			p {
+				text-indent: 1em;
+				/* 1em等于一个字体的宽度 */
+			}
+
+			.bubble-container {
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				background-color: rgba(255, 255, 255, 0.7);
+				transition: transform 0.5s ease, opacity 0.5s ease;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 内容 -->
+		<div class="box">
+			<!-- 顶部导航 -->
+			<div class="header">
+				<!-- logo -->
+				<div class="logo">
+					<h3>刺客MIB</h3>
+				</div>
+				<!-- 菜单 -->
+				<div class="nav">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li class="active">
+							<a href="about.html">About Me</a>
+						</li>
+						<li>
+							<a href="work.html">Works</a>
+						</li>
+						<li>
+							<a href="contant.html">Contact</a>
+						</li>
+						<li>
+							<a href="login.html">Register / Log In</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 左侧菜单 -->
+			<div class="box-left">
+				<img src="img/user.png" alt="">
+				<h5 style='text-align: center;margin-bottom: 3px;'>頼られる存在であり続ける </h5>
+				<h6 style='text-align: center;margin-bottom: 10px;'>(keep reliable)</h6>
+				<h3>CHEN ZHENGWEI</h3>
+				<p>AIシステム学科</p>
+				<p>ID: 21115</p>
+				<p>🏫: 吉田学園情報ビジネス専門学校</p>
+				<p>☎ : 080-8550-××××</p>
+				<p>📧: zwchin08@gmail.com</p>
+			</div>
+			<!-- 右侧内容区 -->
+			<div class="box-right">
+				<div class="br-box">
+					<div class="title">
+						<h3>About Me</h3>
+					</div>
+					<!-- 个人一个简介 -->
+					<!-- 	<div class="about-me">
+						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空间，有施展才华的更广阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
+						</p>
+						<p>我和在座的同学们一样，渴望展翅高飞们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空，渴望将来有更大的发展空间，有施展才华的更广阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
+						</p>
+						<img src="img/banner.png" alt="">
+						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空间，们一样，渴望展翅高飞，渴望将来有更大的发展空有施展才华的更广阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
+						</p>
+						<img src="img/user.png" alt="">
+						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空间，有施展才华的更广们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
+						</p>
+						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空间，有施展才华的更广阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
+						</p>
+						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空间，有施展才华的更广阔的天地。我想，有耕耘们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
+						</p>
+					</div> -->
+					<div class="container">
+						<div class="top">
+							<div class="imgBx">
+								<div class="box">
+									<img src="./img/img.jpg">
+								</div>
+							</div>
+							<div class="profileText">
+								<h3>CHEN<br>ZHENGWEI<br><span>Creative Engineer</span></h3>
+							</div>
+						</div>
+						<div class="contentBox">
+							<div class="leftSide">
+								<h3>Contact Info</h3>
+								<ul>
+									<li>
+										<span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+										<span class="text">+080 8550 4074</span>
+									</li>
+									<li>
+										<span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+										<span class="text">zwchin08@gmail.com</span>
+									</li>
+									<li>
+										<span class="icon"><ion-icon name="earth-outline"></ion-icon></span>
+										<a href="https://chenzhengwei.netlify.app">
+											<span class="text">https://chenzhengwei.netlify.app</span>
+										</a>
+									</li>
+									<li>
+										<span class="icon"><ion-icon name="location-outline"></ion-icon></span>
+										<span class="text">Sapporo, Hokkaido, Japan</span>
+									</li>
+									<!-- <li>
+										<div class="share">
+											<a href="#" class="fab fa-facebook-f"></a>
+											<a href="#" class="fab fa-twitter"></a>
+											<a href="#" class="fab fa-instagram"></a>
+											<a href="#" class="fab fa-linkedin"></a>
+										</div>
+									</li> -->
+
+								</ul>
+								<h3>Education</h3>
+								<ul class="education">
+									<li>
+										<h5>2009 - 2013</h5>
+										<h4>探査技術とエンジニアリング 学科 </h4>
+										<h6>Hunan University of Science and Technology</h6>
+									</li>
+
+									<li>
+										<h5>2021 - 2022</h5>
+										<h4>日本語 学科 </h4>
+										<h6>IAYインターナショナルアカデミー日本語学校 </h6>
+									</li>
+
+									<li>
+										<h5>2022 - 2024</h5>
+										<h4>AI システム 学科</h4>
+										<h6>吉田学園情報ビジネス専門学校</h6>
+									</li>
+								</ul>
+								<h3>Language</h3>
+								<ul class="language">
+									<li>
+										<span class="text">English</span>
+										<div class="percent">
+											<div style="width: 48%;"></div>
+										</div>
+									</li>
+									<li>
+										<span class="text">Japanese</span>
+										<div class="percent">
+											<div style="width: 66%;"></div>
+										</div>
+									</li>
+									<li>
+										<span class="text">Chinese</span>
+										<div class="percent">
+											<div style="width: 95%;"></div>
+										</div>
+									</li>
+								</ul>
+								<h3>Interest</h3>
+								<ul class="interest">
+									<li>
+										<span class="icon"><ion-icon name="game-controller-outline"></ion-icon></span>
+										<span>Gaming</span>
+									</li>
+									<li>
+										<span class="icon"><ion-icon name="mic-outline"></ion-icon></span>
+										<span>Singing</span>
+									</li>
+									<li>
+										<span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+										<span>Reading</span>
+									</li>
+									<li>
+										<span class="icon"><ion-icon name="cafe-outline"></ion-icon></span>
+										<span>Cooking</span>
+									</li>
+									<li>
+										<span class="icon"><ion-icon name="Basketball"></ion-icon></span>
+										<span>Basketball</span>
+									</li>
+									<li>
+										<span class="icon"><ion-icon name="car"></ion-icon></span>
+										<span>車の修理</span>
+									</li>
+								</ul>
+								<br>
+							
+								<br>
+								<br>
+
+								<a href="aboutlike.html">
+									<button>>> See More へ押して</button>
+								</a>
+								<br>
+								<!-- <div>
+									<a href="aboutlike.html">
+										<img src="/img" alt="图片描述">
+									</a>
+								</div> -->
+								
+
+
+
+							</div>
+							<div class="rightSide">
+								<div class="about">
+									<h3>Profile</h3>
+									<p> 私は中国の地方の田舎で生まれ育ちました。大学卒業後6年間に渡り、
+										融資業務に携わって参りました。しかし、コロナの影響で融資業務も減少していきました。
+										困難な状況ではありましたが、これからの進路について考えるいいタイミングだと思い、以前から興味があったIT開発について勉強することにしました。
+										吉田学園で2年間ITの知識を深く学び、現在就職に向けて準備をしているところです。</p>
+								</div>
+
+								<div class="about">
+									<h3>Experience</h3>
+									<div class="box">
+										<div class="year_company">
+											<h5>2013 - 2014</h5>
+											<h5>中化鉱山地質総局湖南省地質工程勘查院</h5>
+										</div>
+										<div class="text">
+											<h4>探査技術とエンジニア</h4>
+											<p>地質調査の仕事では、設計においては一切ミスは許されません。仕事に小さな誤りがあれば、他の人の命に危害を及ぼす可能性があるからです。
+												これまでの人生で完璧を求められる経験がなかったので、最初は戸惑いました。しかしこの経験からどんな作業においても、質の高いものを作りたいという気持ちに意識が変わりました。
+											</p>
+										</div>
+									</div>
+									<div class="box">
+										<div class="year_company">
+											<h5>2014 - 2020</h5>
+											<h5>北京万柳金屋技術有限公司</h5>
+										</div>
+										<div class="text">
+											<h4>マーケットファイナンスマネージャー</h4>
+											<p>金融分野の仕事では、目標を達成するための計画力や実行力を身につけるだけでなく、長期間にわたり顧客との接触があり、豊富なコミュニケーション能力を蓄積しました。さらに、新人の指導を継続的に行うことで、チームのマネジメント能力や協力能力も身につけました。
+											</p>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="about skills">
+									<h3>Professional Skills</h3>
+									<div class="box">
+										<h4>Html/CSS/JS</h4>
+										<div class="percent">
+											<div style="width:60%"></div>
+										</div>
+									</div>
+									<div class="box">
+										<h4>MySql</h4>
+										<div class="percent">
+											<div style="width:55%"></div>
+										</div>
+									</div>
+									<div class="box">
+										<h4>Java</h4>
+										<div class="percent">
+											<div style="width:87%"></div>
+										</div>
+									</div>
+									<div class="box">
+										<h4>Python</h4>
+										<div class="percent">
+											<div style="width: 78%"></div>
+										</div>
+									</div>
+									<div class="box">
+										<h4>C言語</h4>
+										<div class="percent">
+											<div style="width: 36%"></div>
+										</div>
+									</div>
+									<div class="box">
+										<h4>Machine Learning</h4>
+										<div class="percent">
+											<div style="width: 52%"></div>
+										</div>
+									</div>
+
+									<h3>資格取得</h3>
+
+									<li>
+										<span> 日本語の能力試験 JLPT N2 </span>
+
+									</li>
+									<li>
+										<span> Oracle Java Bronze SE 11 </span>
+									</li>
+
+									<li>
+										<span> Python 3 エンジニア基礎認定試験 </span>
+
+									</li>
+
+									<li>
+										<span> Oracle Java Silver SE 11 </span>
+									</li>
+
+									<li>
+										<span> 基本情報技術者試験 A </span>
+									</li>
+
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+					<div class="share">
+						<a href="https://www.facebook.com/profile.php?id=100071946044718" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-instagram"></a>
+						<a href="#" class="fab fa-linkedin"></a>
+						<a href="https://github.com/chenzhengwei123/-chenzhengwei123.github.io"
+							class="fab fa-github"></a>
+					</div>
+					<p>Copyright © 2022 - 2023 吉田学園情報ビジネス専門学校 AIシステム学科 陳正偉 版权所有</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
