@@ -162,19 +162,19 @@ body
     flex-direction: column;
     margin: 25px 0;
 }
-h5
+.container h5
 {
     color: #3590d2;
 }
 
-h4 
+.container h4 
 {
     color: #333;
     font-weight: 500;
     margin: 5px 0;
 }
 
-h6
+.container h6
 {
     color: #666;
     font-weight: 300;
@@ -246,13 +246,13 @@ h6
     margin-right: 0;
 }
 
-p
+.container p
 {
     font-size: 1em;
     font-weight: 300;
     color: #666;
+    text-indent: 1em; 
 }
-
 .rightSide
 {
     padding-left: 40px;

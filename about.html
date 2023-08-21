@@ -11,11 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="icon-font.css"> <!-- 引入图标字体库的CSS文件 -->
 
 		<style>
-			/* 使用CSS样式来设置首行缩进 */
-			p {
-				text-indent: 1em;
-				/* 1em等于一个字体的宽度 */
-			}
+			
 
 			.bubble-container {
 				position: absolute;
@@ -25,7 +21,33 @@
 				background-color: rgba(255, 255, 255, 0.7);
 				transition: transform 0.5s ease, opacity 0.5s ease;
 			}
+
+			
 		</style>
+		<style>
+			/* 设置按钮的样式 */
+			.image-button {
+				position: relative; /* 让按钮相对于父元素定位 */
+				display: inline-block;
+			}
+	
+			.image-button img {
+				display: block; /* 让图片成为一个块级元素 */
+				max-width: 100%;
+				height: auto;
+			}
+			.image-button button {
+            position: absolute; /* 让按钮绝对定位 */
+            bottom: 0; /* 设置按钮在图片底部 */
+            left: 38.88888888888%; /* 设置按钮在图片水平居中 */
+            transform: translateX(-63%); /* 水平居中 */
+            background-color: #4dac98;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+    </style>
 	</head>
 	<body>
 		<!-- 内容 -->
@@ -75,23 +97,7 @@
 					<div class="title">
 						<h3>About Me</h3>
 					</div>
-					<!-- 个人一个简介 -->
-					<!-- 	<div class="about-me">
-						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空间，有施展才华的更广阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
-						</p>
-						<p>我和在座的同学们一样，渴望展翅高飞们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空，渴望将来有更大的发展空间，有施展才华的更广阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
-						</p>
-						<img src="img/banner.png" alt="">
-						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空间，们一样，渴望展翅高飞，渴望将来有更大的发展空有施展才华的更广阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
-						</p>
-						<img src="img/user.png" alt="">
-						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空间，有施展才华的更广们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
-						</p>
-						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空间，有施展才华的更广阔的天地。我想，有耕耘就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
-						</p>
-						<p>我和在座的同学们一样，渴望展翅高飞，渴望将来有更大的发展空间，有施展才华的更广阔的天地。我想，有耕耘们一样，渴望展翅高飞，渴望将来有更大的发展空们一样，渴望展翅高飞，渴望将来有更大的发展空就会有收获。未来的四年里，由各位老师的倾情传授，我们必须会有一个无限完美的未来。......
-						</p>
-					</div> -->
+		
 					<div class="container">
 						<div class="top">
 							<div class="imgBx">
@@ -203,20 +209,23 @@
 										<span>車の修理</span>
 									</li>
 								</ul>
-								<br>
-							
-								<br>
-								<br>
-
+<!-- 							
+								<a href="aboutlike.html">
+									<img src="./img/gougou.png" alt="Click me">
+								</a>
 								<a href="aboutlike.html">
 									<button>>> See More へ押して</button>
 								</a>
-								<br>
-								<!-- <div>
-									<a href="aboutlike.html">
-										<img src="/img" alt="图片描述">
-									</a>
-								</div> -->
+								<br> -->
+															<!-- 图片上方显示按钮的文字 -->
+							<div class="image-button">
+								<a href="aboutlike.html">
+									<img src="./img/gougou.png" alt="Click me">
+									<button>>> See More へ押して</button>
+								</a>
+							</div>
+
+							<br>
 								
 
 
@@ -331,11 +340,10 @@
 				<div class="footer">
 					<div class="share">
 						<a href="https://www.facebook.com/profile.php?id=100071946044718" class="fab fa-facebook-f"></a>
-						<a href="#" class="fab fa-twitter"></a>
-						<a href="#" class="fab fa-instagram"></a>
-						<a href="#" class="fab fa-linkedin"></a>
-						<a href="https://github.com/chenzhengwei123/-chenzhengwei123.github.io"
-							class="fab fa-github"></a>
+						<a href="https://twitter.com/5zy7NLujd7Fn9L0" class="fab fa-twitter"></a>
+						<a href="https://www.instagram.com/zhengwei.chen/" class="fab fa-instagram"></a>
+						<a href="https://www.linkedin.com/in/zw-%E3%83%81%E3%83%B3-874b57286/" class="fab fa-linkedin"></a>
+						<a href="https://github.com/zwchin08" class="fab fa-github"></a>
 					</div>
 					<p>Copyright © 2022 - 2023 吉田学園情報ビジネス専門学校 AIシステム学科 陳正偉 版权所有</p>
 				</div>

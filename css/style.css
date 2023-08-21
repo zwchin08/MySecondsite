@@ -7,6 +7,7 @@
 {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 html,
@@ -81,9 +82,9 @@ a {
 	color: #333333;
 }
 
-.nav ul .active a {
+/* .nav ul .active a {
 	color: #4dac98;
-}
+} */
 
 .nav ul li a:hover {
 	color: #4dac98;
@@ -340,7 +341,7 @@ a {
 	margin:10px 0;
   }
   
-  .footer .share a{
+.footer .share a{
 	text-decoration: none; 
 	height: 50px;
 	width: 50px;
@@ -350,4 +351,4 @@ a {
 	color:var(--black);
 	background: var(--light-bg);
 	color: #FFF;
-  }
+}

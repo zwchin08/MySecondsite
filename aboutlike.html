@@ -20,11 +20,7 @@
 			   	letter-spacing: 2px;
 			   	
 			   }
-		       
-		        /* 使用CSS样式来设置首行缩进 */
-		        p {
-		         text-indent: 1em; /* 1em等于一个字体的宽度 */
-		       }
+		      
 		       .content {
 		           margin: 20px 40px; /* 添加上下和左右的边距 */
 		       }
@@ -132,9 +128,10 @@
 		           margin: 0 auto;
 		       }
 		   
-		       p {
+		       .box-right p {
 		           line-height: 1.6;
 		           text-align: justify; /* 添加段落文本两端对齐效果 */
+				   text-indent: 1em;
 		       }
 		   
 		       /* 悬浮按钮样式 */
@@ -173,6 +170,7 @@
 			   	color: #FFF;
 			     }
 		   
+			
 		   </style>
 	</head>
 	<body>
@@ -225,8 +223,8 @@
 					</div>
 					
 					<div class="container">
-						
 						<header>
+							<div id="top"></div>
 						    <h1 style="color: #4dac98; font-size: 36px;">個人の趣味</h1>    
 						</header>
 						
@@ -240,7 +238,7 @@
 						        <li><a href="#games">ゲームと映画</a></li>
 						        <li><a href="#singing">歌唱</a></li>
 						        <!-- <li><a href="#carrepair">車の修理</a></li> -->
-						       
+								<!-- <li><a href="">&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;</a></li> -->
 						        <li><a href="index.html">
 						            <button> Back HomePage </button>
 						          </a></li>
@@ -251,9 +249,7 @@
 						<!-- コンテンツエリア -->
 						<div class="content">
 						    <!-- 添加悬浮按钮 -->
-						    <a class="floating-button" href="#Top">Top &#12288;へ</a>
-						    
-						
+						    <a class="floating-button" href="#top">Top &#12288;へ</a>
 						    <!-- スポーツ -->
 						    <section id="sports">
 						        <h2>第一篇 &#12288スポーツ</h2>
@@ -285,7 +281,7 @@
 						    <br>
 						
 						    <!-- 写真 -->
-						    <section id="reading">
+						    <section id="picture">
 						        <h2>第三篇 &#12288写真</h2>
 						        <div class="gallery">
 						            <p>私は暇な時間に、携帯電話で写真を撮ることが好きです。例えば食事を終えて散歩中に、
@@ -368,12 +364,13 @@
 					<div class="footer">
 						<div class="share">
 							<a href="https://www.facebook.com/profile.php?id=100071946044718" class="fab fa-facebook-f"></a>
-							<a href="#" class="fab fa-twitter"></a>
-							<a href="#" class="fab fa-instagram"></a>
-							<a href="#" class="fab fa-linkedin"></a>
-							<a href="https://github.com/chenzhengwei123/-chenzhengwei123.github.io" class="fab fa-github"></a>
+							<a href="https://twitter.com/5zy7NLujd7Fn9L0" class="fab fa-twitter"></a>
+							<a href="https://www.instagram.com/zhengwei.chen/" class="fab fa-instagram"></a>
+							<a href="https://www.linkedin.com/in/zw-%E3%83%81%E3%83%B3-874b57286/" class="fab fa-linkedin"></a>
+							<a href="https://github.com/zwchin08" class="fab fa-github"></a>
 						</div>
-						<p>Copyright © 2022 - 2023  吉田学園情報ビジネス専門学校 AIシステム学科 陳正偉 版权所有</p>
+						<p>&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;
+							Copyright © 2022 - 2023  吉田学園情報ビジネス専門学校 AIシステム学科 陳正偉 版权所有</p>
 					</div>
 					</div>
 				</div>
