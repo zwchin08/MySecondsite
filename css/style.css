@@ -285,6 +285,7 @@ a {
 	color: #333333;
 	/* 下侧外边距为20px */
 	margin-bottom: 20px;
+	justify-content: center;
 }
 /* 账号密码框 */
 .login-box input{
